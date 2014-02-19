@@ -9,7 +9,6 @@ Provides a test base class that wraps MSTest assertions in an expect-syntax and 
 
 ## Example
 
-  [TestClass]
   public class MyTests : MSTest.Fluent.TestBase
   {
     [TestMethod]

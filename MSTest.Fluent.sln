@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTest.Fluent.Tests", "MSTe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5A5AEBC-2B14-4C46-B816-E67D81E2BC8C}"
 	ProjectSection(SolutionItems) = preProject
+		license.txt = license.txt
 		readme.md = readme.md
 	EndProjectSection
 EndProject

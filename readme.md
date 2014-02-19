@@ -11,7 +11,6 @@ Provides a test base class that wraps MSTest assertions in an expect-syntax and 
 
   public class MyTests : MSTest.Fluent.TestBase
   {
-    [TestMethod]
     public void MyTest()
     {
       var actual = 5

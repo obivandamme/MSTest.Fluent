@@ -9,7 +9,7 @@ Provides a test base class that wraps MSTest assertions in an expect-syntax and 
 
 ## Example
 
-'''C#
+```C#
 [TestClass]
 public class MyTests : MSTest.Fluent.TestBase
 {
@@ -21,4 +21,4 @@ public class MyTests : MSTest.Fluent.TestBase
     Expect(actual).ToEqual(5);
   }
 }
-'''
+```

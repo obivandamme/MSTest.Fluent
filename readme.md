@@ -9,12 +9,16 @@ Provides a test base class that wraps MSTest assertions in an expect-syntax and 
 
 ## Example
 
-  public class MyTests : MSTest.Fluent.TestBase
+'''C#
+[TestClass]
+public class MyTests : MSTest.Fluent.TestBase
+{
+  [TestMethod]
+  public void MyTest()
   {
-    public void MyTest()
-    {
-      var actual = 5
-      
-      Expect(actual).ToEqual(5);
-    }
+    var actual = 5
+    
+    Expect(actual).ToEqual(5);
   }
+}
+'''

@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTest.Fluent", "MSTest.Fluent\MSTest.Fluent.csproj", "{1C295990-C20A-4BC6-92BC-DA66FA357131}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTest.Fluent.Tests", "MSTest.Fluent.Tests\MSTest.Fluent.Tests.csproj", "{0F2D2E75-37F7-4E7D-AB73-32FADDB6BDA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5A5AEBC-2B14-4C46-B816-E67D81E2BC8C}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +20,10 @@ Global
 		{1C295990-C20A-4BC6-92BC-DA66FA357131}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C295990-C20A-4BC6-92BC-DA66FA357131}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C295990-C20A-4BC6-92BC-DA66FA357131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2D2E75-37F7-4E7D-AB73-32FADDB6BDA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2D2E75-37F7-4E7D-AB73-32FADDB6BDA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2D2E75-37F7-4E7D-AB73-32FADDB6BDA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2D2E75-37F7-4E7D-AB73-32FADDB6BDA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -30,6 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -39,7 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Expect\ExpectBool.cs" />
+    <Compile Include="Expect\ExpectCollection.cs" />
+    <Compile Include="Expect\ExpectDouble.cs" />
+    <Compile Include="Expect\ExpectFloat.cs" />
+    <Compile Include="Expect\ExpectObject.cs" />
+    <Compile Include="Expect\ExpectString.cs" />
+    <Compile Include="Generic\AndConstraint.cs" />
+    <Compile Include="Not\NotBool.cs" />
+    <Compile Include="Not\NotCollection.cs" />
+    <Compile Include="Not\NotDouble.cs" />
+    <Compile Include="Not\NotFloat.cs" />
+    <Compile Include="Not\NotObject.cs" />
+    <Compile Include="Not\NotString.cs" />
+    <Compile Include="TestBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

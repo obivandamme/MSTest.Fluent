@@ -58,7 +58,10 @@ namespace MSTest.Fluent.Tests
                 .And.ToEndWith("ng")
                 .And.ToStartWith("st")
                 .And.ToMatch(new Regex(@"^[a-zA-Z]+$"))
-                .And.Not.ToMatch(new Regex(@"^[0-9]+$"));
+                .And.Not.ToMatch(new Regex(@"^[0-9]+$"))
+                .And.Not.ToBeNull();
+            string s = null;
+            Expect(s).ToBeNull();
         }
 
         [TestMethod]

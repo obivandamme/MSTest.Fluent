@@ -21,6 +21,11 @@
             this.Not = new NotString(this);
         }
 
+        public AndConstraint<ExpectString> ToBeNull()
+        {
+            return this.AssertFluent(() => Assert.IsNull(this.Actual));
+        } 
+
         public AndConstraint<ExpectString> ToEqual(string expected)
         {
             return this.AssertFluent(() => Assert.AreEqual(expected, this.Actual));

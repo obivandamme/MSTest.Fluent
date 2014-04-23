@@ -22,3 +22,9 @@ public class MyTests : MSTest.Fluent.TestBase
   }
 }
 ```
+
+## Changelog
+
+### Version 1.1
+
+- Added ToBeNull & Not.ToBeNull to string assertion

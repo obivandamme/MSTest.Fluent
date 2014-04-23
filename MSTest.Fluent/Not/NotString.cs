@@ -18,6 +18,11 @@
             this.expect = expect;
         }
 
+        public AndConstraint<ExpectString> ToBeNull()
+        {
+            return this.AssertFluent(() => Assert.IsNotNull(this.expect.Actual));
+        }
+
         public AndConstraint<ExpectString> ToEqual(string notExpected)
         {
             return this.AssertFluent(() => Assert.AreNotEqual(notExpected, this.expect.Actual));
